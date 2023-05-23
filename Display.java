@@ -5,7 +5,7 @@
 4. find the prime elements of the array.
 now read the choice from the user and perform appropriate action*/
 import java.util.Scanner;
-class Menu{
+class DisplayMenu{
   public int tosum(int a[]){
     int sum=0;
     for(int i=0;i<a.length;i++)
@@ -53,7 +53,7 @@ class Menu{
 public class Display{
   public static void main(String [] args){
     Scanner sc=new Scanner(System.in);
-    Menu a1= new Menu();
+    DisplayMenu a1= new DisplayMenu();
     int arr[] = new int[4];
     System.out.println("enter the array elements");
     for(int i=0;i<arr.length;i++)
